@@ -14,7 +14,7 @@
 ```
 
 ##直接提示用户是否发送小程序卡片
-
+ ![image](https://github.com/agilab/hikefu/raw/master/send-message-demo.png)
 ```
 <button send-message-title="分享标题" send-message-img="分享的单个图片链接"
 show-message-card="true" send-message-path="../index/index?id={{id}}"
