@@ -13,6 +13,7 @@
 ```
 
 3.直接提示用户是否发送小程序卡片  效果如下
+
  <img width="380" height="673" src="https://github.com/agilab/hikefu/raw/master/send-message-demo.jpeg"/>
 
  实现代码
