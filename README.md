@@ -13,4 +13,24 @@
 
 ```
 
+##直接提示用户是否发送小程序卡片
+
+```
+<button send-message-title="分享标题" send-message-img="分享的单个图片链接"
+show-message-card="true" send-message-path="../index/index?id={{id}}"
+class='details_button' open-type='contact' plain>
+  </button>
+ ```
+
+
+ 主要用到以下几个属性
+ send-message-title 分享的标题
+ send-message-path 分享的路径
+ send-message-img 就是上图所看到的图片
+ show-message-card 显示会话内消息卡片（必须为true，不然没法分享）
+ 这里写图片描述
+
+
+ ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+
 
