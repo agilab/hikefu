@@ -31,6 +31,6 @@ class='details_button' open-type='contact' plain>
  这里写图片描述
 
 
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ ![image](https://github.com/agilab/hikefu/raw/master/send-message.png)
 
 
