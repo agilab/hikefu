@@ -4,12 +4,12 @@
 
 ## 客服按钮
 ```
-<button type='default' open-type='contact'> 打开客服 (普通客服) </button>
+<button type='default' open-type='contact'> 联系客服 </button>
 ```
 
 ##把用户的头像和昵称传递给客服系统
 ```
-<button type='default' session-from='{"nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact" >带头像客服（微信头像）</button>
+<button type='default' session-from='{"nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact" >联系客服(传递信息)</button>
 
 ```
 
@@ -33,4 +33,10 @@ class='details_button' open-type='contact' plain>
 
  ![image](https://github.com/agilab/hikefu/raw/master/send-message.png)
 
+ 小程序的客服消息会被发送到 [这里](https://mpkf.weixin.qq.com/)
+这是一个微信官方提供的客服消息回复工具
+
+当然您也可以选择第三方开发的系统,下面这个是我们的一个客服系统,微信小程序即可回复,有需要的可以用用看
+
+ ![image](https://github.com/agilab/hikefu/raw/master/hi.jpg)
 
