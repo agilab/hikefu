@@ -1,19 +1,18 @@
 # 小程序里面的客服按钮各种样例
 小程序客服接入按钮各种说明
 
-
-## 客服按钮
+客服按钮
 ```
 <button type='default' open-type='contact'> 联系客服 </button>
 ```
 
-##把用户的头像和昵称传递给客服系统
+把用户的头像和昵称传递给客服系统
 ```
 <button type='default' session-from='{"nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact" >联系客服(传递信息)</button>
 
 ```
 
-##直接提示用户是否发送小程序卡片
+直接提示用户是否发送小程序卡片
  ![image](https://github.com/agilab/hikefu/raw/master/send-message-demo.png)
 ```
 <button send-message-title="分享标题" send-message-img="分享的单个图片链接"
