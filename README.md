@@ -3,5 +3,6 @@
 
 
 ## 客服按钮
+```
 <button type='default' open-type='contact'> 打开客服 (普通客服) </button>
-
+```
